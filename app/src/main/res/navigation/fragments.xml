@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/menuItems"
+    android:id="@+id/fragments">
+
+    <fragment
+        android:id="@+id/menuItems"
+        android:name="hr.algebra.countryapp.fragment.ItemsFragment"
+        android:label="@string/countries"
+        />
+    <fragment
+        android:id="@+id/menuRulers"
+        android:name="hr.algebra.countryapp.fragment.RulersFragment"
+        android:label="@string/rulers"
+        />
+    <fragment
+        android:id="@+id/menuMonuments"
+        android:name="hr.algebra.countryapp.fragment.MonumentsFragment"
+        android:label="@string/monuments"
+        />
+    <fragment
+        android:id="@+id/menuAdd"
+        android:name="hr.algebra.countryapp.fragment.AddFragment"
+        android:label="@string/AddCountry"
+        />
+    <fragment
+        android:id="@+id/menuAddRuler"
+        android:name="hr.algebra.countryapp.fragment.AddRulerFragment"
+        android:label="@string/add_ruler"
+        />
+    <fragment
+        android:id="@+id/menuAddMonument"
+        android:name="hr.algebra.countryapp.fragment.AddMonumentFragment"
+        android:label="@string/add_monument"
+        />
+    <fragment
+        android:id="@+id/menuAbout"
+        android:name="hr.algebra.countryapp.fragment.AboutFragment"
+        android:label="@string/about"
+        />
+</navigation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Country App</string>
+    <string name="please_wait">Molim, pričekajte</string>
+    <string name="loading">Očitavanje...</string>
+    <string name="no_internet">Nema internetske veze</string>
+    <string name="items">Države</string>
+    <string name="about">O aplikaciji</string>
+    <string name="exit">Izlaz</string>
+    <string name="exit_application">Izlaz iz aplikacije?</string>
+    <string name="cancel">Odustani</string>
+    <string name="name">Naziv</string>
+    <string name="fundation">Godina osnutka</string>
+    <string name="fall">Godina pada</string>
+    <string name="capital">Glavni grad</string>
+    <string name="language">Jezik</string>
+    <string name="countries">Zemlje</string>
+    <string name="rulers">Vladari</string>
+    <string name="monuments">Spomenici</string>
+    <string name="reign">Vladavina</string>
+    <string name="location">Lokacija</string>
+    <string name="description">Opis</string>
+    <string name="country">Zemlja</string>
+    <string name="religion">Religija</string>
+    <string name="add">Dodaj</string>
+    <string name="ruler">Vladar</string>
+    <string name="monument">Spomenik</string>
+    <string name="AddCountry">Dodaj državu</string>
+    <string name="add_ruler">Dodaj vladara</string>
+    <string name="add_monument">Dodaj spomenik</string>
+    <string name="add_country">Dodaj_državu</string>
+    <string name="add_ruler2">Dodaj_vladara</string>
+    <string name="add_monuments">Dodaj_spomenik</string>
+    <string name="edit_country">Ažuriraj državu</string>
+    <string name="save">Spremi</string>
+</resources>

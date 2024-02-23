@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#bb5069"
+    app:cardCornerRadius="@dimen/_9dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="@dimen/_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/ivMonument"
+            android:src="@drawable/monument"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="@dimen/_50dp"/>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_marginStart="@dimen/_20dp"
+            android:gravity="center_vertical"
+            android:text="@string/monuments"
+            android:textSize="20sp"
+            android:textColor="?colorOnPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

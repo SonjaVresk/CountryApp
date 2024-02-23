@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItems"
+        android:title="@string/countries"
+        android:icon="@drawable/map_nb" />
+    <item
+        android:id="@+id/menuRulers"
+        android:title="@string/rulers"
+        android:icon="@drawable/ruler" />
+    <item
+        android:id="@+id/menuMonuments"
+        android:title="@string/monuments"
+        android:icon="@drawable/monument" />
+
+    <item
+        android:id="@+id/menuAdd"
+        android:title="@string/add_country"
+        android:icon="@drawable/add"/>
+
+    <item
+        android:id="@+id/menuAddRuler"
+        android:title="@string/add_ruler2"
+        android:icon="@drawable/add"/>
+
+    <item
+        android:id="@+id/menuAddMonument"
+        android:title="@string/add_monuments"
+        android:icon="@drawable/add"/>
+
+    <item
+        android:id="@+id/menuAbout"
+        android:title="@string/about"
+        android:icon="@drawable/globeonped" />
+</menu>
